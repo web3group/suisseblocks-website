@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/fonts/GTAmerica.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "GT America";
+}
+
+/* CSS for removing inbuild padding and height of scroll magic */
+.scrollmagic-pin-spacer {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  /* min-height: 100vh !important;
+  height: 100vh !important;
+  max-height: 110vh !important; */
+  min-height: 140vh !important;
+  max-height: 150vh !important;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "realprop-landingpage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rollup/plugin-dsv": "^3.0.2",
+    "i18next": "^22.4.10",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
+    "react-scrollmagic": "^2.3.0",
+    "vite-plugin-radar": "^0.7.0",
+    "vite-plugin-sitemap": "^0.3.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.6.2",
+    "recharts": "^2.3.2",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0",
+    "vite-plugin-radar": "^0.7.0",
+    "vite-ssg-sitemap": "^0.4.3"
+  }
+}
