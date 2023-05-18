@@ -17,7 +17,7 @@ const AdsInvest = () => {
         <div className="w-full h-full sm:h-screen relative z-20 flex justify-center items-center sm:justify-end sm:items-end flex-col gap-4 text-white p-12">
           <video
               className="min-w-full min-h-full absolute inset-0 z-30 object-cover opacity-30"
-              src="https://res.cloudinary.com/dso5ztlee/video/upload/v1674333978/playback_izo8qy.mp4"
+              src="https://res.cloudinary.com/dftbihnlb/video/upload/v1684415227/videoplayback_1_online-video-cutter.com_1_ryo07f.mp4"
               type="video/mp4"
               autoPlay
               muted

@@ -53,7 +53,7 @@ const Hero = () => {
             className={`${styles.flexCenter} relative flex-col sm:flex-row sm:gap-4 py-4 w-full md:w-3/4`}
           >
             <button
-              onClick={handleShowPaper}
+            <a href="/nft-realEstate">
               className="text-black w-full py-3 px-4 sm:px-1 bg-white mb-4 sm:mb-0 hover:opacity-90 sm:text-[14px]">
               {/* WHITEPAPERa */}
               {t("WHITEPAPERa")}
