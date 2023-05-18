@@ -27,7 +27,7 @@ const FundSection = () => {
       project: t("PROJECTED_RETURN"),
       earning: t("UP_TO_18_EARNINGS"),
       subtitle:
-          t("High_yield_invest"),
+          t("High_yield_invest1"),
       firstpath: '/buy-non-us-investors',
       videoPath: "https://www.youtube.com/embed/1KphW4wjgcM",
       firstbtn: t("Invest_Now"),
