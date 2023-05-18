@@ -15,5 +15,5 @@ RUnning Local :
 ```
 yarn dev
 ```
-build 24 January
+build 18 JaMaynuary
 =
