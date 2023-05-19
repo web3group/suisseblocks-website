@@ -30,12 +30,8 @@ const Funds = () => {
       </Helmet>
       <div
         className={`${styles.flexCenter} `}
-        style={{
-          backgroundImage: `url("${imgsea}")`,
-          backgroundSize: "cover",
-        }}
       >
-        <div className={`${styles.paddingX} ${styles.boxWidth} min-h-[110vh] text-white relative`}>
+          <div className={`bg-black ${styles.paddingX} ${styles.boxWidth} min-h-[110vh] relative text-white`}>
           <HeroThird
             title={content.title}
             mainTitle={content.mainTitle}
