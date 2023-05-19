@@ -16,7 +16,7 @@ const HeroThird = ({ title, mainTitle, subtitle }) => {
       className={`w-full ${styles.boxWidth} md:pt-20 mt-32 mb-10 sm:bg-cover`}
     >
       <video
-        className="min-w-full min-h-full max-h-[150vh] absolute inset-0 z-0 object-cover opacity-30"
+        className="min-w-full min-h-full max-h-[180vh] absolute inset-0 z-0 object-cover opacity-30"
         src="https://res.cloudinary.com/dftbihnlb/video/upload/v1677676627/London_zognf6.mp4"
         type="video/mp4"
         autoPlay
