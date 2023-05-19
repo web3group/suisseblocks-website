@@ -72,7 +72,7 @@ const Hero = () => {
 
         </div>
       </div>
-      <ModalVideo handleShowModal={handleShowModal} showModal={showModal} videoLink="https://www.youtube.com/embed/1KphW4wjgcM" />
+      <ModalVideo handleShowModal={handleShowModal} showModal={showModal} videoLink="https://www.youtube.com/embed/sjmgKYVO2vw" />
 
     </section>
   );
