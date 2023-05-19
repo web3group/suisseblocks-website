@@ -10,6 +10,8 @@ import HeroThird from "../components/HeroThird";
 import ManagementFee from "../components/ManagementFee";
 import StepSection from "../components/StepSection";
 import styles from "../style";
+import {Helmet} from "react-helmet";
+import Hero5 from "../components/Hero5.jsx";
 
 const DealPage = () => {
   const content = {
@@ -21,17 +23,27 @@ const DealPage = () => {
 
   return (
     <>
-        <div className="bg-black ">
-            <div className={`${styles.flexCenter}  `}>
-                <div className={`${styles.paddingX} ${styles.boxWidth}  `}>
-        <div className={`${styles.paddingX} ${styles.boxWidth} text-white`}>
-          <HeroThird
-            title={content.title}
-            mainTitle={content.mainTitle}
-            subtitle={content.subtitle}
-          />
+        <Helmet>
+            <title>Funds offeres by Suisseblocks - Invest in Private Equity today.</title>
+            {/* about-page meta */}
+            <meta name="your-keyword" content="desc" />
+            <meta property="og:type" content="article" />
+        </Helmet>
+        <div
+            className={`${styles.flexCenter}`}
+            style={{
+                backgroundImage: `url("${imgsea}")`,
+                backgroundSize: "cover",
+            }}
+        >
+            <div className={`bg-black ${styles.paddingX} ${styles.boxWidth} min-h-[110vh] relative text-white`}>
+                <HeroThird
+                    title={content.title}
+                    mainTitle={content.mainTitle}
+                    subtitle={content.subtitle}
+                />
+            </div>
         </div>
-      </div>
       <div className={`${styles.flexCenter} bg-white`}>
         <div className={`${styles.paddingX} ${styles.boxWidth}`}>
           <DealInfo />
