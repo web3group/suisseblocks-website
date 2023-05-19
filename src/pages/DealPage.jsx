@@ -31,10 +31,6 @@ const DealPage = () => {
         </Helmet>
         <div
             className={`${styles.flexCenter}`}
-            style={{
-                backgroundImage: `url("${imgsea}")`,
-                backgroundSize: "cover",
-            }}
         >
             <div className={`bg-black ${styles.paddingX} ${styles.boxWidth} min-h-[110vh] relative text-white`}>
                 <HeroThird
