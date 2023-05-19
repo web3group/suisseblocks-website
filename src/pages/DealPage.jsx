@@ -13,7 +13,7 @@ import styles from "../style";
 
 const DealPage = () => {
   const content = {
-    title: "FUND I - SaaS Buy Outs",
+    title: "FUND I - SaaS Buyouts",
     mainTitle: "We enable scale in Business through Generative AI and our 120 operating principles.",
     subtitle:
       "Access Buy Out I focus is SaaS / Enterprise software where we can drive additional value and revenue through Generative AI",
@@ -21,13 +21,9 @@ const DealPage = () => {
 
   return (
     <>
-      <div
-        className={`${styles.flexCenter}`}
-        style={{
-          backgroundImage: `url("${imgsea}")`,
-          backgroundSize: "cover",
-        }}
-      >
+        <div className="bg-black ">
+            <div className={`${styles.flexCenter}  `}>
+                <div className={`${styles.paddingX} ${styles.boxWidth}  `}>
         <div className={`${styles.paddingX} ${styles.boxWidth} text-white`}>
           <HeroThird
             title={content.title}
