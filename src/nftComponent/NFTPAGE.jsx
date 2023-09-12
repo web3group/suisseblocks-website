@@ -105,7 +105,7 @@ const NFTPAGE = () => {
     const Interior = InteriorArray();
     const InteriorData = {
         id: 8,
-        subtitle: 'Members can access opportunities from only USD 997.',
+        subtitle: 'Members can access opportunities from only USD 500.',
         style: 'text-start justify-start',
         Images: Interior,
     }
