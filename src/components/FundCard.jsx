@@ -19,7 +19,7 @@ const FundCard = ({ img, fund, desc, project, earning, subtitle, firstpath, vide
             <h1 className="sm:text-[10px] text-[14px]">{fund}</h1>
             <p className="sm:text-[12px] text-[14px]">{desc}</p>
           </div>
-          <div className="w-full h-[1px] border-b-2 border-white"></div>
+          <div className="w-full h-[3px] border-b-2 border-white"></div>
           <div className="flex flex-col gap-1 px-9">
             <h2 className="sm:text-[10px] text-[14px]">{project}</h2>
             <h1 className="text-base">{earning}</h1>
